@@ -2,7 +2,7 @@
 
 ---
 <div style="display: flex; align-items: center; gap: 16px;">
-<img src="./docs/portrate.png" alt="Kooin Shin Portrait" width="100" style="border-radius: 50%;"/>
+<img src="./docs/images/portrate.png" alt="Kooin Shin Portrait" width="100" style="border-radius: 50%;"/>
 
 <div>
   
