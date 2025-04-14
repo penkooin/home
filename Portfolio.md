@@ -1,3 +1,4 @@
+
 # 👨‍💻 Full Stack Developer Portfolio
 
 ## 🌐 GIS Web / App Development
@@ -5,11 +6,11 @@
 Developed a Web/App using **OpenStreetMap** with:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img35.jpeg" width="300"/>
-<img src="./images/page1_img36.jpeg" width="300"/>
-<img src="./images/page1_img41.jpeg" width="300"/>
-<img src="./images/page1_img42.jpeg" width="300"/>
-<img src="./images/page1_img43.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img35.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img36.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img41.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img42.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img43.jpeg" width="300"/>
 <div>
 
 - **Back-end**: Spring Boot
@@ -35,9 +36,9 @@ Developed a Web/App using **OpenStreetMap** with:
 An open-source **2D charting library** for Java Swing and SWT.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img1.jpeg" width="300"/>
-<img src="./images/page1_img2.jpeg" width="300"/>
-<img src="./images/page1_img3.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img1.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img2.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img3.jpeg" width="300"/>
 <div>
 
 
@@ -56,12 +57,12 @@ An open-source **2D charting library** for Java Swing and SWT.
 JavaScript version of **ChaosGraph**, enabling frontend chart visualization.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img4.jpeg" width="300"/>
-<img src="./images/page1_img5.jpeg" width="300"/>
-<img src="./images/page1_img6.jpeg" width="300"/>
-<img src="./images/page1_img7.jpeg" width="300"/>
-<img src="./images/page1_img8.jpeg" width="300"/>
-<img src="./images/page1_img9.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img4.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img5.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img6.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img7.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img8.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img9.jpeg" width="300"/>
 <div>
 
 - Compatible with React, Vue, NestJS
@@ -81,14 +82,14 @@ JavaScript version of **ChaosGraph**, enabling frontend chart visualization.
 Developed advanced Talend components for integration, cloud, big data, queues, etc.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img13.jpeg" width="300"/>
-<img src="./images/page1_img14.jpeg" width="300"/>
-<img src="./images/page1_img10.jpeg" width="300"/>
-<img src="./images/page1_img11.jpeg" width="300"/>
-<img src="./images/page1_img12.jpeg" width="300"/>
-<img src="./images/page1_img15.jpeg" width="300"/>
-<img src="./images/page1_img16.jpeg" width="300"/>
-<img src="./images/page1_img17.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img13.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img14.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img10.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img11.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img12.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img15.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img16.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img17.jpeg" width="300"/>
 <div>
 
 **GitHub**: [TalendExchange](https://github.com/TalendExchange)
@@ -105,10 +106,10 @@ Developed advanced Talend components for integration, cloud, big data, queues, e
 Open-source **HTTP Framework** with:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img18.jpeg" width="300"/>
-<img src="./images/page1_img20.jpeg" width="300"/>
-<img src="./images/page1_img19.jpeg" width="300"/>
-<img src="./images/page1_img21.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img18.jpeg" width="300"/>
+<img src="./docs/docs/images/page1_img20.jpeg" width="300"/>
+<img src="./docs/images/page1_img19.jpeg" width="300"/>
+<img src="./docs/images/page1_img21.jpeg" width="300"/>
 <div>
 
 - TLS/SSL support
@@ -128,8 +129,8 @@ Open-source **HTTP Framework** with:
 Used `JMX` for monitoring and `ChaosGraph` for visual components.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img22.jpeg" width="300"/>
-<img src="./images/page1_img23.jpeg" width="300"/>
+<img src="./docs/images/page1_img22.jpeg" width="300"/>
+<img src="./docs/images/page1_img23.jpeg" width="300"/>
 <div>
 
 - Backend agent with TCP socket communication
@@ -143,9 +144,9 @@ Used `JMX` for monitoring and `ChaosGraph` for visual components.
 For the JOB-PASS scheduling client:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img24.jpeg" width="300"/>
-<img src="./images/page1_img25.jpeg" width="300"/>
-<img src="./images/page1_img26.jpeg" width="300"/>
+<img src="./docs/images/page1_img24.jpeg" width="300"/>
+<img src="./docs/images/page1_img25.jpeg" width="300"/>
+<img src="./docs/images/page1_img26.jpeg" width="300"/>
 <div>
 
 - Designed interactive 2D Gantt chart
@@ -161,8 +162,8 @@ For the JOB-PASS scheduling client:
 IoT project with Android & Arduino:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img28.jpeg" width="300"/>
-<img src="./images/page1_img29.jpeg" width="300"/>
+<img src="./docs/images/page1_img28.jpeg" width="300"/>
+<img src="./docs/images/page1_img29.jpeg" width="300"/>
 <div>
 
 - Developed firmware for motor control via Bluetooth
@@ -179,8 +180,8 @@ IoT project with Android & Arduino:
 Linux terminal emulator for Android:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img30.jpeg" width="300"/>
-<img src="./images/page1_img31.jpeg" width="300"/>
+<img src="./docs/images/page1_img30.jpeg" width="300"/>
+<img src="./docs/images/page1_img31.jpeg" width="300"/>
 <div>
 
 - Input Linux commands via GUI
@@ -196,9 +197,9 @@ Linux terminal emulator for Android:
 Realtime voice & video chat android app. 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img33.jpeg" width="300"/>
-<img src="./images/page1_img34.jpeg" width="300"/>
-<img src="./images/page1_img32.jpeg" width="300"/>
+<img src="./docs/images/page1_img33.jpeg" width="300"/>
+<img src="./docs/images/page1_img34.jpeg" width="300"/>
+<img src="./docs/images/page1_img32.jpeg" width="300"/>
 <div>
 
 - Android Native video/audio call app
@@ -207,7 +208,7 @@ Realtime voice & video chat android app.
 - User management & back-end integration
 
 **Tech**: `Java`, `Android`  
-🎥 [Demo Video](https://youtu.be/ocUyayUGGEs)
+🎥 [Demo Video](https://youtu.be/ocUyayUGGEs)  
 
 ---
 
@@ -216,7 +217,7 @@ Realtime voice & video chat android app.
 Military training battlefield effect controller:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-<img src="./images/page1_img37.jpeg" width="300"/>
+<img src="./docs/images/page1_img37.jpeg" width="300"/>
 <div>
 
 - 2D minimap & device visualizer
