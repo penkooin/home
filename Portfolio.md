@@ -1,4 +1,3 @@
-
 # 👨‍💻 Full Stack Developer Portfolio
 
 ## 🌐 GIS Web / App Development
@@ -208,7 +207,7 @@ Realtime voice & video chat android app.
 - User management & back-end integration
 
 **Tech**: `Java`, `Android`  
-🎥 [Demo Video](https://youtu.be/ocUyayUGGEs)  
+🎥 [Demo Video](https://youtu.be/ocUyayUGGEs)
 
 ---
 
