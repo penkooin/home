@@ -6,8 +6,9 @@ Welcome to my GitHub profile! I am a versatile Senior Developer/Engineer with ex
 
 ## 🌟 Portfolio & Resume
 
-- 📄 **Portfolio**: [Full Stack Developer Portfolio](https://penkooin.github.io/home/portfolio.html)
-- 📄 **Resume**: [Kooin Shin Resume](https://penkooin.github.io/home/resume.html)
+- 📄 **Conver Letter**: [Kooin Shin Resume](https://penkooin.github.io/home/eng/conver-letter.html)
+- 📄 **Resume**: [Kooin Shin Resume](https://penkooin.github.io/home/eng/resume.html)
+- 📄 **Portfolio**: [Full Stack Developer Portfolio](https://penkooin.github.io/home/eng/portfolio.html)
 
 ---
 

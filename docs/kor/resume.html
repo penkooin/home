@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신구인 — 시니어 풀스택 개발자</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 100px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        .certificates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 10px;
+        }
+
+        .certificates img {
+            padding: 5px;
+            max-width: 200px;
+            max-height: 300px;
+            border: 1px solid #85acff;
+            border-radius: 13px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .certificates img:hover {
+            transform: scale(3.0);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 600px;
+        }
+
+        .contact,
+        .languages,
+        .certifications,
+        .education,
+        .skills,
+        .interests,
+        .experience,
+        .projects {
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            margin-top: 40px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>👨‍💻 신구인 — 시니어 풀스택 개발자</h1>
+
+    <div class="profile">
+        <img src="../images/portrate.png" alt="신코인 초상화">
+        <div>
+            <h2>💡 프로필</h2>
+            <p>대규모 시스템 및 데이터 통합 프로젝트(군사 시뮬레이션, 전자상거래 플랫폼 등)에서 폭넓은 경험을 보유한 다재다능한 시니어 개발자/엔지니어입니다. 백엔드 기술(Docker,
+                Kubernetes, Big Data), 클라우드 아키텍처, 네이티브 애플리케이션, 웹 서비스, 네트워킹, 2D 그래픽 및 IoT에 능숙합니다. 솔루션 아키텍처, 성능 튜닝 및 시스템
+                엔지니어링에서 입증된 실적을 보유하고 있으며, 혁신과 협업에 열정을 가진 오픈소스 기여자입니다.</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>📇 연락처</h2>
+        <p>📱 전화: +82-10-9364-9295</p>
+        <p>📧 이메일: <a href="mailto:chaos930@gmail.com">chaos930@gmail.com</a></p>
+        <p>🌐 LinkedIn: <a href="https://www.linkedin.com/in/kooin-shin-77b6a5bb">신코인</a></p>
+    </div>
+
+    <div class="languages">
+        <h2>🌍 언어</h2>
+        <ul>
+            <li>한국어: 모국어</li>
+            <li>영어: 고급</li>
+            <li>스페인어: 초급</li>
+        </ul>
+    </div>
+
+    <div class="certifications">
+        <h2>📜 자격증</h2>
+        <ul>
+            <li>Sun Certified Java Programmer</li>
+            <li>AWS Certified Cloud Practitioner – PASS</li>
+            <li>AWS Certified Data Engineer – Fail (639)</li>
+            <li>AWS Certified Developer – Fail (675)</li>
+            <li>이노트리 혁신상</li>
+            <li>이노트리 우수 프로젝트상</li>
+            <li>이노트리 우수 사원상</li>
+            <li>이노트리 경력 인증서</li>
+            <li>SICC 경력 인증서</li>
+        </ul>
+        <div class="certificates">
+            <img src="../cert/Sun Certifie Java Developer.png" alt="Sun Certified Java Developer">
+            <img src="../cert/AWS Certified Cloud Practitioner.png" alt="AWS Certified Cloud Practitioner">
+            <img src="../cert/AWS Certified Data Engineer- result report.png" alt="AWS Certified Data Engineer">
+            <img src="../cert/AWS Certified Developer - result report .png" alt="AWS Certified Developer">
+            <img src="../cert/best-employee-prize.png" alt="우수 사원상">
+            <img src="../cert/best-innovative-prize.png" alt="혁신상">
+            <img src="../cert/best-project-prize.png" alt="우수 프로젝트상">
+            <img src="../cert/innotree cert for career.png" alt="이노트리 경력 인증서">
+            <img src="../cert/sicc cert for career.png" alt="SICC 경력 인증서">
+        </div>
+    </div>
+
+    <div class="education">
+        <h2>🎓 학력</h2>
+        <p><strong>충북대학교</strong><br>
+            철학 학사 — 인문대학<br>
+            대한민국 청주 | 1993년 3월 – 1999년 8월</p>
+    </div>
+
+    <div class="skills">
+        <h2>💻 기술</h2>
+        <ul>
+            <li>Java / JavaScript / Spring Boot / JPA</li>
+            <li>AWS / GCP / Docker / Kubernetes</li>
+            <li>빅데이터 인프라 / Talend</li>
+            <li>웹 크롤링 / TCP 및 시리얼 네트워킹</li>
+            <li>2D 그래픽 / GIS API / Android</li>
+            <li>RDBMS / CI/CD / Git / SVN / 솔루션 설계</li>
+        </ul>
+    </div>
+
+    <div class="interests">
+        <h2>🎯 관심사 및 취미</h2>
+        <ul>
+            <li>기술 동향 / 세계사 / 환경 문제</li>
+            <li>클라이밍 / 스키</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h2>🧰 경력</h2>
+        <h3>이노트리 — 시니어 풀스택 개발자 & 파트 리더</h3>
+        <p><strong>2018년 2월 – 2024년 4월</strong></p>
+        <ul>
+            <li>Kafka 기반 DI/ETL 솔루션을 하이브리드 클라우드 환경(AWS + 온프레미스)에서 리드</li>
+            <li>Talend Open Studio를 사용하여 내부 Talend 컴포넌트 및 데이터 파이프라인 개발</li>
+            <li>데이터 레이크 설계 및 RDBMS를 S3, BigQuery, Redshift로 마이그레이션</li>
+            <li>Docker를 사용하여 Kubernetes에서 Kafka 클러스터 설정</li>
+            <li>확장 가능한 아키텍처 구축 및 성능 평가 문서화</li>
+        </ul>
+
+        <h3>SICC — 애플리케이션 개발자</h3>
+        <p><strong>2004년 6월 – 2015년 10월</strong></p>
+        <ul>
+            <li>군사 훈련을 위한 KCTC 전장 시뮬레이션 시스템 개발</li>
+            <li>RS485/TCP 통신 모듈 및 Swing을 사용한 2D 시각화 GUI 구축</li>
+            <li>고처리량 메시지 처리(>1500 TPS)를 위한 통신 서버 개선</li>
+            <li>JMX를 사용한 실시간 모니터링 대시보드 설계</li>
+        </ul>
+    </div>
+
+    <div class="projects">
+        <h2>🚀 주요 프로젝트</h2>
+        <h3>🔄 Kafka + Talend 통합 (이노트리, 2023–2024)</h3>
+        <ul>
+            <li>Kubernetes에서 Kafka 클러스터 설정</li>
+            <li>Talend 데이터 파이프라인 및 마이그레이션 아키텍처 생성</li>
+            <li>HA, 성능, 스트리밍 및 통합 기능 평가</li>
+        </ul>
+
+        <h3>🔧 Talend 컴포넌트 개발 (이노트리, 2020–2023)</h3>
+        <ul>
+            <li>Redis, RabbitMQ, Kafka 등을 위한 12개 이상의 Talend 커스텀 컴포넌트 생성</li>
+            <li>JSON, YAML, CSV 파싱을 위한 컴포넌트 설계</li>
+            <li>AWS(S3, Athena, Aurora, RDS)와 통합</li>
+        </ul>
+
+        <h3>🛒 롯데 전자상거래 ETL (이노트리, 2018–2020)</h3>
+        <ul>
+            <li>롯데 전자상거래 시스템을 위한 ETL 파이프라인 구축 및 유지보수</li>
+            <li>내부 및 외부 플랫폼으로 데이터를 마이그레이션하기 위한 Talend 작업 개발</li>
+            <li>Jira, SMS, 메일 및 데이터 레이크 통합</li>
+        </ul>
+
+        <h3>🪖 KCTC 전투 시뮬레이션 (SICC, 2005–2015)</h3>
+        <ul>
+            <li>군사 시뮬레이션을 위한 서버 측 소프트웨어 개발</li>
+            <li>지뢰밭, 장애물 지역 및 실시간 추적을 위한 시뮬레이션 모듈 설계</li>
+            <li>전장 시각화를 위한 동적 2D 차트 UI 생성</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
