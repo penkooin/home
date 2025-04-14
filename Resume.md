@@ -2,7 +2,7 @@
 
 ---
 <div style="display: flex; align-items: center; gap: 16px;">
-<img src="./portrate.png" alt="Kooin Shin Portrait" width="100" style="border-radius: 50%;"/>
+<img src="./docs/portrate.png" alt="Kooin Shin Portrait" width="100" style="border-radius: 50%;"/>
 
 <div>
   
@@ -36,15 +36,15 @@ Versatile Senior Developer/Engineer with broad experience across large-scale Sys
 - Certificate Career, SICC
 
 <div style="display: flex; align-items: center; gap: 16px;">
-<img src="./cert/Sun Certifie Java Developer.png" width="150"/>
-<img src="./cert/AWS Certified Cloud Practitioner.png" width="150"/>
-<img src="./cert/AWS Certified Data Engineer- result report.png" width="150"/>
-<img src="./cert/AWS Certified Developer - result report .png" width="150"/>
-<img src="./cert/best-employee-prize.png" width="100"/>
-<img src="./cert/best-innovative-prize.png" width="100"/>
-<img src="./cert/best-project-prize.png" width="100"/>
-<img src="./cert/innotree cert for career.png" width="100"/>
-<img src="./cert/sicc cert for career.png" width="100"/>
+<img src="./docs/cert/Sun Certifie Java Developer.png" width="150"/>
+<img src="./docs/cert/AWS Certified Cloud Practitioner.png" width="150"/>
+<img src="./docs/cert/AWS Certified Data Engineer- result report.png" width="150"/>
+<img src="./docs/cert/AWS Certified Developer - result report .png" width="150"/>
+<img src="./docs/cert/best-employee-prize.png" width="100"/>
+<img src="./docs/cert/best-innovative-prize.png" width="100"/>
+<img src="./docs/cert/best-project-prize.png" width="100"/>
+<img src="./docs/cert/innotree cert for career.png" width="100"/>
+<img src="./docs/cert/sicc cert for career.png" width="100"/>
 </div>
 
 ---

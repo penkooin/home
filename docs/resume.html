@@ -9,8 +9,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0 20px;
+            margin: 100px;
         }
 
         h1,
@@ -31,18 +30,30 @@
             width: 100px;
         }
 
-        .certificates,
-        .images-grid {
+        .certificates {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 16px;
-            margin: 20px 0;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 10px;
         }
 
-        .certificates img,
-        .images-grid img {
-            width: 80%;
-            border-radius: 8px;
+        .certificates img {
+            padding: 5px;
+            max-width: 200px;
+            max-height: 300px;
+            border: 1px solid #85acff;
+            border-radius: 13px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .certificates img:hover {
+            transform: scale(3.0);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 600px;
         }
 
         .contact,
