@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AroundUs: Community App Service</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown-light.min.css" />
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .markdown-body img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="markdown-body">
+    <article>
+        <h1>🌐 AroundUs: Community App Service</h1>
+
+        <div class="center">
+            <img src="../../images/aroundus/bienvenidos.png" alt="logo" width="300" />
+        </div>
+
+        <p><strong>AroundUs</strong> is a modern, scalable community-based application platform built using
+            <strong>Microservices Architecture (MSA)</strong>. It connects users through local and interest-based
+            communities, providing features such as location discovery, social networking, real-time chat,
+            recommendations, and more.
+        </p>
+
+        <h2>📱 Project Overview</h2>
+        <ul>
+            <li><strong>React Native Mobile App</strong> – Cross-platform mobile frontend for iOS and Android.</li>
+            <li><strong>Node.js Express Microservices</strong> – A set of backend services managing distinct domains
+                such as user profiles, posts, friends, notifications, and more.</li>
+            <li><strong>Dockerized Services</strong> – Each backend service is containerized for independent deployment
+                and scaling.</li>
+            <li><strong>GitHub Actions CI/CD</strong> – Continuous Integration & Deployment workflows for both frontend
+                and backend.</li>
+            <li><strong>Cloud-Ready</strong> – Designed to be deployed in Kubernetes or cloud environments with
+                scalability and fault tolerance in mind.</li>
+        </ul>
+
+        <h2>🧩 Features & Service Domains</h2>
+        <div class="center">
+            <img src="../../images/aroundus/concept.png" alt="concept" width="800" />
+        </div>
+
+        <h3>🟢 Community</h3>
+        <ul>
+            <li>Share Posts & Things</li>
+            <li>Search & Filter</li>
+            <li>Meet-up, Topics, and Trends</li>
+            <li>Open Community System</li>
+        </ul>
+
+        <h3>🔵 User Profile</h3>
+        <ul>
+            <li>Avatar & Bio</li>
+            <li>Personal Information</li>
+            <li>Profile Sharing</li>
+        </ul>
+
+        <h3>🟣 Friends</h3>
+        <ul>
+            <li>Friend List & Interactions</li>
+            <li>Chat & Video Chat</li>
+            <li>Shared Rights</li>
+        </ul>
+
+        <h3>🟡 Notifications</h3>
+        <ul>
+            <li>Real-time alerts for events, friends, community news, and system events</li>
+            <li>AI-Driven Suggestions</li>
+        </ul>
+
+        <h3>🟠 App Information</h3>
+        <ul>
+            <li>Compliance, Contact, Legal</li>
+            <li>Guides & Support</li>
+        </ul>
+
+        <h2>🧠 Categories & Community Topics</h2>
+        <p>AroundUs supports a wide variety of interest-based communities such as:</p>
+        <ul>
+            <li>🏘️ Local & Neighborhood</li>
+            <li>🍽️ Food & Drink</li>
+            <li>🎮 Hobbies & Interests</li>
+            <li>💪 Health & Wellness</li>
+            <li>🧑‍🤝‍🧑 Social & Meetups</li>
+            <li>🐶 Pets & Animals</li>
+            <li>🎓 Learning & Growth</li>
+            <li>💼 Buy, Sell & Trade</li>
+            <li>🌱 Eco & Sustainability</li>
+        </ul>
+
+        <h2>🏗️ System Architecture</h2>
+        <p>AroundUs is built using a container-based microservices design:</p>
+        <ul>
+            <li><strong>API Gateway</strong> – Unified entry point for clients</li>
+            <li><strong>Multiple App Servers</strong> – Dedicated Node.js microservices</li>
+            <li><strong>Independent Databases per Service</strong> – MongoDB, MySQL, Redis, Kafka</li>
+            <li><strong>CI/CD via GitHub Actions</strong></li>
+            <li><strong>Optional Public APIs for 3rd-party integrations</strong></li>
+        </ul>
+
+        <div class="center">
+            <img src="../../images/aroundus/cloud-architecture.png" alt="architecture" width="800" />
+        </div>
+
+        <h2>📁 Project Structure</h2>
+        <pre><code>├── mobile-app/        # React Native frontend (iOS & Android)
+├── services/          # Microservice backend components
+├── README.md          # Root README</code></pre>
+
+        <h2>🧩 Microservices Breakdown</h2>
+        <ul>
+            <li><strong>ai-service/</strong>: Provides recommendation and personalization logic.</li>
+            <li><strong>analytics-service/</strong>: Tracks user activity and system metrics.</li>
+            <li><strong>auth-service/</strong>: Handles authentication, JWT tokens, and OAuth2.</li>
+            <li><strong>chat-service/</strong>: Manages chat rooms, real-time messaging, and video calls.</li>
+            <li><strong>feed-service/</strong>: Responsible for social feed generation and filtering.</li>
+            <li><strong>info-service/</strong>: Stores app-wide metadata, guides, and legal info.</li>
+            <li><strong>notification-service/</strong>: Sends push, email, and in-app notifications.</li>
+            <li><strong>search-service/</strong>: Search engine for users, posts, tags, and local content.</li>
+            <li><strong>user-service/</strong>: Manages user profiles, avatars, and user settings.</li>
+            <li><strong>web-service/</strong>: Handles web dashboard or admin views if applicable.</li>
+        </ul>
+
+        <h2>📱 Mobile App Structure (React Native + Expo)</h2>
+        <pre><code>mobile-app/
+├── components/     # Reusable UI components
+├── constants/      # App-wide constant values
+├── hooks/          # Custom React hooks
+├── scripts/        # Build or deployment-related scripts
+├── proxy-*.js      # Local dev proxy for backend
+├── app.json        # Expo config
+├── tsconfig.json   # TypeScript settings
+├── server.crt/key  # Local SSL certificates</code></pre>
+
+        <h2>🛠️ Tech Stack</h2>
+        <ul>
+            <li><strong>Frontend</strong>: React Native, Expo, TypeScript</li>
+            <li><strong>Backend</strong>: Node.js, Express, MongoDB, Redis, Kafka</li>
+            <li><strong>DevOps</strong>: Docker, Docker Compose, GitHub Actions</li>
+            <li><strong>Cloud Ready</strong>: K8s, AWS S3, Load Balancer, API Gateway</li>
+        </ul>
+
+        <h2>🚀 Getting Started</h2>
+        <p>Each microservice lives under the <code>services/</code> directory and includes:</p>
+        <ul>
+            <li>Dockerfile</li>
+            <li>package.json</li>
+            <li>src/ directory</li>
+        </ul>
+
+        <h3>Run Locally (with Docker Compose)</h3>
+        <pre><code>docker-compose up --build</code></pre>
+
+        <h3>Backend</h3>
+        <pre><code>cd services/
+docker-compose up --build</code></pre>
+
+        <h3>Mobile App</h3>
+        <pre><code>cd mobile-app/
+npm install
+npx expo start</code></pre>
+    </article>
+</body>
+
+</html>

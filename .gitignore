@@ -7,3 +7,6 @@
 *.json
 *.xml
 *.log
+*.zip
+*.tar.gz
+*.py
